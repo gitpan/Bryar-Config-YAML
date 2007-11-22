@@ -1,13 +1,14 @@
 --- #YAML:1.0
 name:                Bryar-Config-YAML
-version:             0.101
+version:             0.102
 abstract:            Bryar configuration stored in YAML
 license:             perl
-generated_by:        ExtUtils::MakeMaker version 6.31
+generated_by:        ExtUtils::MakeMaker version 6.36_01
 distribution_type:   module
 requires:     
     Bryar:                         2.8_01
     Test::More:                    0
+    YAML::Syck:                    0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.2.html
     version: 1.2
